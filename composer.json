@@ -1,0 +1,40 @@
+{
+    "name": "nowise/uup-progressbar",
+    "version": "1.0.0",
+    "description": "Progress bar for CLI applications",
+    "type": "library",
+    "keywords": [
+        "progressbar",
+        "uup"
+    ],
+    "homepage": "https://nowise.se/oss/uup/progressbar",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Anders Lövgren",
+            "email": "andlov@nowise.se"
+        },
+        {
+            "name": "Anders Lövgren",
+            "email": "anders.lovgren@interactivesolutions.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "UUP\\": "source/",
+            "UUP\\Example\\": "example/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UUP\\Tests\\": "tests/"
+        }
+    }
+}
